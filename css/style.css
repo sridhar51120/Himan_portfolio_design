@@ -1,0 +1,159 @@
+.page-loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  background: #fff url(../img/page-loader.gif) center center no-repeat;
+}
+
+#navelements {
+  padding: 10px;
+  margin: 5px;
+}
+
+#circle {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+}
+
+.Logo_nav_button_1 {
+  width: "138.9999542236328px";
+  height: "47.84184646606445px";
+  top: "27px";
+  left: "100px";
+  border-radius: "5.818603038787842px";
+  border: "2px red dotted";
+  color: "white";
+  font-size: 20px;
+}
+
+.Logo_nav_button_2 {
+  width: "138.9999542236328px";
+  height: "47.84184646606445px";
+  top: "27px";
+  left: "1201px";
+  border-radius: "5.818603038787842px";
+  border-bottom-color: "2px black";
+  color: "white";
+}
+
+.nav {
+  width: "Hug (420px)";
+  height: "Hug (19px)";
+  top: "41px";
+  left: "510px";
+  gap: "32px";
+}
+
+.home_image {
+  padding-left: 30px;
+  display: block;
+}
+
+.circle-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.connections-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#about_container {
+  width: "1440px";
+  height: "563px";
+  top: "542px";
+}
+/* body {
+	background-color: red;
+  } */
+
+/* About Section -- student and Recruters */
+
+.About {
+  /* width:  2000px; */
+  /* height: 500px; */
+  flex-shrink: 0;
+}
+/* About Students */
+
+.About_title_student {
+  color: #000;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.student_container {
+  border-radius: 14.752px;
+  border: 3px solid #000;
+  background: #ffe6b0;
+  box-shadow: 4px 6px 0px 0px #000;
+}
+
+.about_join_now {
+  border-radius: 5.819px;
+  border: 2px solid #000;
+  background: #a244c3;
+  box-shadow: 2px 4px 0px 0px #000;
+}
+
+/* About Recruters */
+
+.About_title_Recruiters {
+  color: #000;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.About_content_Recruiters {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Recruiters_container {
+  border-radius: 14.752px;
+  border: 3px solid #000;
+  background: #94ffbf;
+  box-shadow: 4px 6px 0px 0px #000;
+}
+
+.Connections_head {
+  color: #000;
+  text-align: center;
+  font-family: Inknut Antiqua;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.testimonial_head {
+  color: #000;
+  text-align: center;
+  font-family: Inknut Antiqua;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
